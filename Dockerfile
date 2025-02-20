@@ -1,5 +1,5 @@
 # Use latest Python image
-FROM python:latest
+FROM python:3.14-rc-slim-bookworm
 
 # Set working directory
 WORKDIR /app
